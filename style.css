@@ -1,0 +1,92 @@
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}
+.nav{
+  background-color: #363738;
+  color: White;
+}
+.nav-item{
+  color: White;;
+  font-size: 150%;
+}
+.nav-item:hover{
+  color: rgba(255, 255, 255, 0.50);
+}
+.nav-link.active:hover{
+  color: rgba(255, 255, 255, 0.50);
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: rgba(205, 205, 205, 0.8);
+}
+.card:hover .overlay{
+    opacity: 1;
+}
+#home{
+  background-image: url('Images/Package.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#problem{
+  background-image: url('Images/Problem.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#solution{
+  background-image: url('Images/Lightbulb.jpg');
+  background-size: cover;
+  background-attachment: fixed; 
+  background-position: center;
+}
+#arduino{
+  background-image: url('Images/Arduino.jpg');
+  background-size: cover;
+  background-attachment: fixed; 
+  background-position: center;
+}#contact{
+  background-image: url('Images/.jpg');
+  background-size: cover;
+  background-attachment: fixed; 
+  background-position: center;
+}
+.section{
+  background-color: #f2f2f2;
+  padding: 10%;
+  line-height: 250%;
+}
+.home{
+  background-color: #f2f2f2;
+  padding: 10%;
+  margin-top: 20%;
+  line-height: 250%;
+}
+.section{
+  background-color: #f2f2f2;
+  padding: 10%;
+  line-height: 250%;
+}
+.title-part2 {
+  font-size: 350%;
+  border-bottom-style: solid;
+  font-family: "Open Sans Condensed", letterpress;
+  margin-top: 20%;
+  color: white;
+  text-align: center;
+}
